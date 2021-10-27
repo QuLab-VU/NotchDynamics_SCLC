@@ -11,9 +11,13 @@ dependencies:
   - leidenalg
   - matplotlib
   - pandas
-  - scanorama
-  - scanpy 
-  - scvelo
   - umap-learn
+  - jupyterlab
+  - graph-tool
   - pip:
     - dropkick==1.2.6
+    - scanorama
+    - scanpy 
+    - scvelo
+    - scrublet
+    - magic-impute
