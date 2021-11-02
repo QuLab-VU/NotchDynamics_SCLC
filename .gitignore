@@ -1,3 +1,4 @@
 
 *.loom
 *.h5ad
+.DS_Store

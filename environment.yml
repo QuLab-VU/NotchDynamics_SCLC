@@ -1,0 +1,23 @@
+name: notch_env
+channels:
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.9.6
+  - jupyter=1.0.0
+  - seaborn
+  - anndata
+  - jupyterlab
+  - leidenalg
+  - matplotlib
+  - pandas
+  - umap-learn
+  - jupyterlab
+  - graph-tool
+  - pip:
+    - dropkick==1.2.6
+    - scanorama
+    - scanpy 
+    - scvelo
+    - scrublet
+    - magic-impute
